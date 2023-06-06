@@ -23,6 +23,16 @@ export default [
     ],
   },
   {
+    path: '/',
+    redirect: '/add_chart',
+  },
+  {
+    path: '/add_chart',
+    name: 'BI Analysis',
+    icon: 'BarChartOutlined',
+    component: './AddChart',
+  },
+  {
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',
