@@ -33,6 +33,12 @@ export default [
     component: './AddChart',
   },
   {
+    path: '/my_chart',
+    name: 'My Chart',
+    icon: 'PieChartOutlined',
+    component: './MyChart',
+  },
+  {
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',
